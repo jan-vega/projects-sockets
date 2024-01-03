@@ -1,0 +1,22 @@
+{
+  "name": "projects-sockets",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev-01": "nodemon 01-socket-server-basic/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
