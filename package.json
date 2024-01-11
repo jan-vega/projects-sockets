@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev-01": "nodemon 01-socket-server-basic/src/index.js"
+    "dev-01": "nodemon 01-socket-server-basic/src/index.js",
+    "dev-02": "nodemon 02-band-names/bandNames-server/src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "socket.io": "^4.7.2"
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "dotenv": "^16.3.1",
